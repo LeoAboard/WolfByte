@@ -148,7 +148,7 @@ section#por-que_contratar h2 {
 }
 
 .metodos2 {
-    background-image: linear-gradient(135deg, #00FFFF, #025E73, #151570);
+    background-image: linear-gradient(135deg, var(--cor0), var(--cor1), var(--cor2));
     padding: 25px;
     border-radius: 8px;
     flex: 1 1 calc(25% - 20px);
