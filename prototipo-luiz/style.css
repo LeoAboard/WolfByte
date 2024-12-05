@@ -46,7 +46,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 110px;
     padding: 0 10%;
     background: linear-gradient(to bottom, #000000, #000000, #000000, rgba(0, 0, 0, 0.16));
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -74,7 +74,7 @@ nav ul {
     list-style: none;
 }
 
-main {
+main#quem_somos {
     max-width: 50%;
     margin: 20px;
     text-align: justify;
