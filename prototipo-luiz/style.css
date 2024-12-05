@@ -78,11 +78,28 @@ main#quem_somos {
     max-width: 50%;
     margin: 20px;
     text-align: justify;
+    margin-bottom: 100px;
 }
 
-@media (max-width: 900px) {
-    main#quem_somos {
-        max-width: 90%;
+main p {
+    text-indent: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    max-width: 40vw;
+}
+
+main h2 {
+    max-width: 40vw;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 2.0em;
+}
+
+@media screen and (max-width: 900px) {
+    main p {
+        max-width: 90vw;
     }   
 }
 
@@ -133,13 +150,13 @@ section#nossos_servicos.scrolled {
     }
 }
 
-main h2, section#nossos_servicos h2 {
+section#nossos_servicos h2 {
     font-weight: 400;
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-main p, section#nossos_servicos p {
+section#nossos_servicos p {
     text-indent: 20px;
     font-size: 18px;
     margin-bottom: 10px;
